@@ -1,0 +1,35 @@
+
+body{
+    background-color: #413F42;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.btn-danger{
+    background-color: #950101;
+    border-color: #950101;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.task label.checked{
+    text-decoration: line-through;
+}
+.controls{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.filters span{
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 5px;
+    color: #413F42;
+
+}
+.filters span.active{
+    color:#3c87ff;
+}
